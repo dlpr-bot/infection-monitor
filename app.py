@@ -480,7 +480,7 @@ if "news_data" in st.session_state:
         text = text.replace(stop, "")
 
     wc = WordCloud(
-        font_path="C:/Windows/Fonts/malgun.ttf",
+        font_path="NanumGothic.ttf",
         width=1000,
         height=450,
         background_color="white",
